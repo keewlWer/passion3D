@@ -1,0 +1,34 @@
+body{
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 1000;
+  font-size: x-large;
+  font-style: normal;
+}
+body header {
+  background-color: var(--secondary-color); /* Set a background color */
+  padding: 1rem 2rem; /* Add some padding */
+  display: flex; /* Allow horizontal alignment of content */
+  justify-content: space-between; /* Space content horizontally */
+  align-items: center; /* Align content vertically */
+}
+body .dropdown-item {
+  padding-left: 10px; /* Adjust the value for margin-bottom */
+}
+.card-body{
+  background-color: var(--secondary-color);
+}
+
+text {
+  fill: var(--body-fg);
+}
+
+rect {
+  width: 100%;
+  height: 100%;
+  fill: var(--tertiary-color);
+
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
